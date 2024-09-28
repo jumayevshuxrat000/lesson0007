@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Poppins'; 
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+
+
 header{
     width: 100%;
 }
@@ -20,6 +29,8 @@ nav{
 .nav__link{
     text-decoration: none;
     color: black;
+    font-family: "Poppins";
+    font-size: 15px;
 }
 
 .nav__actions{
@@ -52,6 +63,7 @@ nav{
 }
 
 .hero__title{
+    font-family: "Poppins";
     font-size: 48px;
     margin-bottom: 10px;
     line-height: 57px;
@@ -62,6 +74,7 @@ nav{
     line-height: 25px;
     color: var(--main--gren-color);
     font-size: 16px;
+    font-family: "Poppins";
 }
 
 .image-and-text{
